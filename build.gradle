@@ -29,6 +29,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+	implementation 'com.auth0:java-jwt:3.18.1'
 }
 flyway {
 	url = 'jdbc:mysql://localhost:3306/web5?serverTimezone=UTC'
